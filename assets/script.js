@@ -10,7 +10,6 @@ function writePassword() {
     var length = prompt("How many characters do you want in your password?")
 
     if (length >= 8 && length <= 128) {
-      /*generatePassword.length === length*/
       confirmUpper()
     } else if (length < 8 || length > 128) {
       alert("Password must contain between 8 and 128 characters")
@@ -57,8 +56,8 @@ function writePassword() {
     }
 
     function concoctPassword() {
-      generatePassword = characters.charAt(Math.floor(Math.random() * length));
-      alert("Generated password is " + generatePassword)
+        var result = characters.charAt(Math.floor(Math.random() * length));
+      alert("Generated password is " + result) 
     }
   }
 }
