@@ -1,8 +1,10 @@
 # Miles-Thomas-homework-task-3
 
 ## URL to Webpage 
+ https://mdthomas1.github.io/Miles-Thomas-homework-task-3/
 
 ## Screenshot
+<img src=./assets/Website.png />
 
 ## Description
 A password generator that lets you specify the password length and the types of characters you want to include in it.
